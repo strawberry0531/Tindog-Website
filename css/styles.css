@@ -1,0 +1,140 @@
+body {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+.colored-section {
+  background-color: #C295D8;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 3rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* Title Section */
+.main-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  text-align: left;
+  padding: 3% 15%;
+}
+
+.title-image {
+  height: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features Section */
+#features {
+  padding: 3% 15%;
+  position: relative;
+}
+
+.feature-item {
+  padding: 5%;
+}
+
+.font-icon {
+  color: #E4A3D4;
+  margin-bottom: 1rem;
+}
+
+.font-icon:hover {
+  color: #C295D8;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  background-color: #E4A3D4;
+}
+
+.carousel-item img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+.carousel-item h2 {
+  font-size: 3rem;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+/* Press Section */
+.press-section .container-fluid {
+  background-color: #E4A3D4;
+  padding: 0 15% 3%;
+}
+
+.press-section img {
+  width: 20%;
+  margin: 2%;
+}
+
+/* Pricing Section */
+.pricing-card {
+  padding: 3% 2%;
+}
+
+.pricing-section .container-fluid {
+  padding: 3% 15%;
+}
+
+/* CTA Section */
+#cta .container-fluid {
+  padding: 5%;
+}
+
+.cta-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 2% 3%;
+}
+
+.download-button {
+  margin: 0 2% 2% 0;
+}
+
+/* Footer Section */
+.footer-icon {
+  margin: 8px;
+}
+
+#footer .container-fluid {
+  padding: 5% 15%;
+}
+
+/* Mediaquery */
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+    height: auto;
+  }
+}
